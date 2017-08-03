@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body,
 html {
     width: 100%;
@@ -19,10 +20,6 @@ h6 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 28px;
-}
-
-.content{
-    z-index: 1;
 }
 
 #bodytext {
@@ -49,80 +46,29 @@ h6 {
 
 .table-dudes {
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: 0px;
     opacity: 0.35;
-}
-
-@media screen and (max-width:991px) { /*hide picture and make it the background */
-    .table-dudes {
-        visibility: hidden;
-    }
-    .background {
-        background-image: url("../img/greyscale2.jpg");
-        background-repeat: no-repeat;
-        width: 100%;
-        opacity: 0.15;
-        z-index: 0;
-    }
 }
 
 .intro-header {
     text-align: center;
 }
 
-.h-logo { /* changed so that it is an absolute size and disappears when screen is too small */
+.h-logo {
     position: absolute;
-    /*left: 18.6%;
-    top: 39%; */
-    left: 325px;
-    top: 260px;
-    width: 80px;
-    height: 80px;
-    /*width: 14%;
-    height: 14%;*/
+    left: 18.6%;
+    top: 39%;
+    width: 14%;
+    height: 14%;
 }
-
-@media screen and (max-width:991px) {
-    .h-logo {
-        position: absolute;
-        left: 10%;
-        top: 39%; 
-        width: 80px;
-        height: 80px;
-        /*width: 14%;
-        height: 14%;*/
-    }
-}
-
 .intro-message {
     position: relative;
     margin-left: auto;
-    margin-right: 23%;
+    margin-right: 25%;
     width: 475px;
     padding-top: 8%;
     padding-bottom: 10%;
-}
-
-@media screen and (max-width:1199px) {
-    .intro-message {
-        position: relative;
-        margin-left: auto;
-        margin-right: 5%;
-        width: 475px;
-        padding-top: 8%;
-        padding-bottom: 10%;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .intro-message {
-        position: relative;
-        align-content: center;
-        width: 85%;
-        padding-top: 8%;
-        padding-bottom: 10%;
-    }
 }
 
 .intro-message > h1 {
@@ -148,15 +94,6 @@ h6 {
     font-size: 24px;
     font-weight: bold;
     display: inline-block;
-}
-
-@media screen and (max-width:543px) {
-    #location {
-        font-size: 24px;
-        font-weight: bold;
-        display: inline-block;
-        padding-right: 40px;
-    }
 }
 
 #desc {
@@ -235,21 +172,10 @@ h6 {
 .party-line {
     position: absolute;
     right: -3px;
-    top: 150px;
-    width: 10%;
+    top: 28%;
+    width: 150px;
     border-radius:20px;
     height: 4px;
-}
-
-@media screen and (max-width:991px) {
-    .party-line {
-        position: absolute;
-        right: -3px;
-        top: 210px;
-        width: 15%;
-        border-radius:20px;
-        height: 4px;
-    }
 }
 
 .this-button {
